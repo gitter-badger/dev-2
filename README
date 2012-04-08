@@ -1,15 +1,4 @@
-hello github!
+amend last commit
+test 1
 
-history change test
-2
-3
-4
-
-last one..
-
----
-<<<<<<< HEAD
-master edit
-=======
-experiment edit
->>>>>>> experiment
+test 2
