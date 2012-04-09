@@ -1,0 +1,4 @@
+amend last commit will be tested one more time..
+the first change has been committed and pushed..
+
+and now we are adding a small update to the file..
