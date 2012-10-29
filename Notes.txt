@@ -1,0 +1,297 @@
+signalR - flight prices sample app?
++
+async + tasks ?!
++
+contact manager - webapi - jquery
+comments - webapi + knockout template
+inventory - spa + upshot + knockout
+delivery tracker - spa + upshot + knockout
+bigshelf - spa + upshot + knockout
+
+---
+okul durumlarý ile ilgili proje?
+
+---
+dealcent proje?
+http://www.dealcent.com
+
+---
+Some samples;
+http://nuget.org/packages/netfx-WebApi.JsonNetFormatter
+http://nuget.org/packages/JsonFx
+http://nuget.org/packages/ImtMvcStarter
+tugberks samples?
+
+---
+core template
+. database or simple text
+.. field properties
+.. table properties
+.. project properties
+
+. Data Access Layer
+. Business Layer
+. UI
+.. Preview (Info)
+.. Item Edit
+.. Lists
+.... Plain list
+.... thumbnasils
+.... ?
+... List edit
+.... Sort etc.?
+. Configurations (on every level)?
+. Tests
+
+---
+. configurable!
+. support transactions
+. support joins, keys
+. many layers (not only DB to Business)
+. should be able to read from business layer ?
+. IDEAL Situation;
+. DB - SQL
+. DAL - EF
+. Business - OOP
+. Service - WCF
+. Clients
+.. Web
+... MVC
+... jQuery?
+.. Console
+.. Win
+.. Mobile
+
+---
+. signalR?
+
+. t4 templates? - learn more
+.. t4 scaffold?
+.. mvc templates?
+.. other templates?
+. ef power tools? - n/a for express
+. repository, unit of work patterns?
+. try to learn the background of entity! - dbset, dbcontext, objectcontext etc.?
+. check the difference between entityobject & poco entity & self tracking entity?
+. check the difference between modelfirst + codefirst (why codefirst can create a db, but not modelfirst?) - necessity of EDMX?
+. try to use this approach in APM projects?
+. how about dependency to microsoft? .NET dependecy as usual..
+. how about using Custom Tool approach? is it possible to have it as a seperate application?
+. how about online code generation? any restriction from microsoft?
+
+. SOURCE CONTROL?														
+we started to use git on github!
+try to play with it; rename + delete + move etc. ?!?! on both machines
+visual studio extension?
+sharpdevelop extension?
+clients? tortoisegit is good enough? how about gitextensions?
+
+. TESTER?
+
+. wcf kit;
+.. htmlquerystring
+.. htmlencodedform
+... system.net.servicepointmanager.expect100continue = false ??!!
+... is it possible to use this form for INTERNETKASSA ?!
+
+. Visual Studio 2010 and .NET Framework 4 Training Kit
+. wcf samples kit?
+
+QUESTIONS;
+. asp.net;
+.. how the first validation stuff works (normally there is no dataannotation but still it can show a validation error)
+.. multiple validations on one field
+.. how to add custom validation?
+
+. MUSICSTORE;
+.. how aspnet membership + authentication etc. works?
+.. check business logic?
+.. shopping cart + jquery stuff?
+.. partial view?
+
+. ROUTING
+.. what happens if it url doesnt match? cases..
+.. have some samples for RouteTables, for displaying the menu etc?
+
+LEARN
+
+. test lazy + eager + explicit loading
+
+. tryupdatemodel ?
+
+. asnotracking?
+
+. escapeuristring !!!
+
+. inmemoryrepository?
+
+. 6 – Implement asynchronous operations using Task/Task<T>  ?!
+
+. tracing? + elmah?;
+http://www.asp.net/web-api/overview/testing-and-debugging/tracing-in-aspnet-web-api
+
+. ioc containers - dependency resolver;
+http://www.asp.net/web-api/overview/extensibility/using-the-web-api-dependency-resolver
+
+. sesion in MVC?
+. attributes
+.. dataannotations
+.. filtering for MVC?
+. generics (<T>) stuff?
+. unit tests!
+. [MetadataType(typeof(ProductMD))] ?
+
+. HttpUtility.HtmlEncode ?;
+Note: We’re using the HttpUtility.HtmlEncode utility method to sanitize the user input. This prevents users from injecting Javascript into our View with a link like /Store/Browse?Genre=<script>window.location=’http://hackersite.com’</script>.
+
+DB
+. sqllite
+. firebird?
+. mysql?
+. nosql?
+. mongodb?
+.. .net + ef support?
+
+. neo4j.org/
+. freebase
+. crunchbase
+
+VIEW ENGINES
+. NAHML?
+. Spark? - there is spark templates zip file under files\setups\visual studio
+
+---
+. smartcode
+. LLBLGEN ?
+. mygeneration
+. t4
+.. subsonic
+. linq to sql - TEST IT!
+. entity framework
+. poco? - TEST IT!
+. nhibernate? - TEST IT!
+. Castle ActiveRecord ?
+
+---
+HOSTING
+. sharpdevelop git support?
+. sharpdevelop web application deployment?
+
+---
+projects;
+. quick vote;
+http://selectricity.org/quickvote/deneme123
+
+. chat application: signalR?!
+
+. character sheet inventory?
+
+. crp helper
+.. http://itunes.apple.com/us/app/igm/id449317755?mt=8
+
+. current date time
+
+---
+spa
+
+http://blog.stevensanderson.com/2012/03/06/single-page-application-packages-and-samples/
+
+upshot?
+Single page application template?
+Scaffolding?
+How to customize api of single page application, is it possible to modify it somehow, or just get ?!
+Check bigshelf
+
+SPA + upshot
+
+Try these cases;
+Guid
+Datetime
+Parent child relation
+
+When there is a new object, it gets the id from server or client generates it? If its client, then it will change when it goes to server? Which means the user cannot share the url of the first instance?
+
+Id should come from server all the time?
+
+---
+unit test
+
+http://www.nunit.org/ - downloaded! - check docs
+http://www.mbunit.com/
+http://testdriven.net/
+http://research.microsoft.com/en-us/projects/pex/
+http://code.google.com/p/nstub/downloads/detail?name=NStub.Deployment.msi&can=2&q=
+tdd sample ?
+
+---
+knockout notes;
+. $.map() for server side objects
+. send the full form to the server?
+. ko.toJson ?
+. destroy ?!
+. hash-based/pushState navigation
+. with option ?!
+. custom bindings
+
+---
+jquery validation ?!
+
+---
+jquery drag drop for mobile ?!
+
+---
+"==" vs. "==="
+
+---
+http://www.c-point.com/javascript_tutorial/jsgrpComparison.htm
+
+---
+PM> Install-Package SinglePageApplication.Csharp
+
+---
+PATCH method for partial update? instead of PUT ?!
+
+---
+wep api
+. help page? http://nuget.org/packages/Microsoft.AspNet.WebApi.HelpPage
+. tracing? http://nuget.org/packages/Microsoft.AspNet.WebApi.Tracing
+. odata support? http://blogs.msdn.com/b/alexj/archive/2012/08/15/odata-support-in-asp-net-web-api.aspx
+
+. dependency injection: http://msdn.microsoft.com/en-us/magazine/cc163739.aspx
+. ninject: http://www.ninject.org/learn.html
+
+. migrations: http://msdn.microsoft.com/en-US/data/jj591621
+
+---
+to be read;
+. http://www.asp.net/web-forms/tutorials/aspnet-45/getting-started-with-aspnet-45-web-forms/introduction-and-overview
+. http://www.thinqlinq.com/Post.aspx/Title/SignalR-and-Reactive-Extensions-are-an-Rx-for-server-push-notifications
+. http://www.tugberkugurlu.com/archive/asp-net-web-api-catch-all-route-parameter-binding
+. http://stephenwalther.com/archive/2009/02/06/chapter-2-understanding-routing.aspx
+. http://johnpapa.net/building-single-page-apps-with-knockout-jquery-and-web-api-ndash-the-story-begins
+. http://www.hanselman.com/blog/IntroducingASPNETFriendlyUrlsCleanerURLsEasierRoutingAndMobileViewsForASPNETWebForms.aspx
+
+. http://blogs.msdn.com/b/csharpfaq/archive/2012/06/26/understanding-a-simple-async-program.aspx
+. http://www.youtube.com/watch?v=Qv_sMePYs8s
+. http://visualstudiomagazine.com/blogs/tool-tracker/2012/06/comparing-anonymous-objects-in-c-sharp-and-vb.aspx
+. http://channel9.msdn.com/Events/TechEd/NorthAmerica/2012/DEV325
+
+. http://encosia.com/automatically-minify-and-combine-javascript-in-visual-studio/
+
+---
+http://ermau.com/making-instant-csharp-viable-visualization/
+http://ermau.com/making-instant-c-viable-part-1/
+http://ermau.com/making-instant-c-viable-part-2/
+
+---
+do we need to use fake email in github? if yes;
+https://help.github.com/articles/keeping-your-email-address-private
+
+---
+\\live.sysinternals.com\tools\ followed by the name of the tool you want
+
+---
+SSDT
+
+---
+http://northamerica.msteched.com/
