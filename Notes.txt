@@ -1,3 +1,9 @@
+
+TURN HELLO GITHUB TO DEV
+
+SEARCH OSP + OPEN SOURCE PIONEERS!
+
+---
 signalR - flight prices sample app?
 +
 async + tasks ?!
