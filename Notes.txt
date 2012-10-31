@@ -2,8 +2,8 @@
 SEARCH OSP + OPEN SOURCE PIONEERS!
 
 better folder structure?
-
-/dev/projects/github/coni2k/... ?
+/dev/projects/github/ coni2k /... ?
+but the application only has one default storage?
 
 ---
 signalR - flight prices sample app?
