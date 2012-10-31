@@ -1,7 +1,9 @@
 
-TURN HELLO GITHUB TO DEV
-
 SEARCH OSP + OPEN SOURCE PIONEERS!
+
+better folder structure?
+
+/dev/projects/github/coni2k/... ?
 
 ---
 signalR - flight prices sample app?
@@ -15,10 +17,10 @@ delivery tracker - spa + upshot + knockout
 bigshelf - spa + upshot + knockout
 
 ---
-okul durumlarý ile ilgili proje?
+project about the schools, the status of the schools etc.
 
 ---
-dealcent proje?
+dealcent project?
 http://www.dealcent.com
 
 ---
