@@ -1,11 +1,4 @@
 
-SEARCH OSP + OPEN SOURCE PIONEERS!
-
-better folder structure?
-/dev/projects/github/ coni2k /... ?
-but the application only has one default storage?
-
----
 signalR - flight prices sample app?
 +
 async + tasks ?!
@@ -240,15 +233,6 @@ knockout notes;
 . hash-based/pushState navigation
 . with option ?!
 . custom bindings
-
----
-jquery validation ?!
-
----
-jquery drag drop for mobile ?!
-
----
-"==" vs. "==="
 
 ---
 http://www.c-point.com/javascript_tutorial/jsgrpComparison.htm
