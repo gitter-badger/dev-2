@@ -192,3 +192,15 @@ Responsive design and UI concepts
 Reverse ajax for server to client communications
 
 You can add in your own custom libraries or pull in 3rd party libraries such as Sammy for navigation, Breeze for rich data, SignalR for reverse ajax, or Amplify for local storage. You could use a javascript pattern to keep you organized. You could write the app with TypeScript which is especially helpful if you come from a static language background or if you want to start using ECMAScript 6 features now. If you want ot learn more about TypeScript, keep an eye out on Pluralsight in December for our TypeScript course (I am co-authoring with Dan Wahlin). If you want to see more about these features, you can check out my Single Page Apps blog post series and my Code Camper SPA course with Pluralsight.
+
+---
+. test web.config protection 
+. test session sql server mode
+. test localdb
+. coding guidelines;
+Net framework design guideline?
+space, no tab
+space for “if” “for”
+license notice to all files?
+class members alphabetized
+usings in namespaces
