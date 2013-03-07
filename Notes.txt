@@ -204,3 +204,18 @@ space for “if” “for”
 license notice to all files?
 class members alphabetized
 usings in namespaces
+
+---
+TDD Master Class Screen Casts : Roy Osherove [Screencast]
+http://tekpub.com/productions/tdd
+
+If you are new to TDD/Unit Tests then I recommend watching the TDD Master Class production from Tekpub.com.
+http://tekpub.com/
+
+The production is a series of videos from a week long training seminar presented by Roy Osherove.
+
+In addition to the videos take a look at Roy’s blog post on the string calculator TDD kata.
+http://osherove.com/tdd-kata-1/
+
+If you are interested you can see a video of my efforts of the string calculator kata in JavaScript.
+http://www.contentedcoder.com/2012/09/tdd-kata-video-with-eclipse-javascript.html
