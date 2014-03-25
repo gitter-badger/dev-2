@@ -8,6 +8,9 @@ namespace Playground.Engine
 {
     public class Class2
     {
-        /* Class 2 */
+        /*
+         * Class 2
+         * Test branch edit
+         */
     }
 }
