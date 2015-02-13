@@ -1,4 +1,6 @@
+rakefile test
 
+---
 signalR - flight prices sample app?
 +
 async + tasks ?!
